@@ -30,6 +30,12 @@ import java.math.BigDecimal;
 
 import com.growstoken.WalletAddress;
 
+/****
+ * 
+ * We must inculde the NSF generated address and interest distribution of GrowsToken in here
+ * These all address should be consider as vaild and can be trust 
+ */
+
 @Transactional
 class EthereumMonitorService {
     def grailsApplication
